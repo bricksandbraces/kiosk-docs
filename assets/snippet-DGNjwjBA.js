@@ -1,1 +1,0 @@
-import{x as p,k as t}from"./template-CTpSGHuQ.js";import{B as c}from"./branches-BnzGTysO.js";function f(r,s,...a){var e=new c(r);p(()=>{const n=s()??null;e.ensure(n,n&&(o=>n(o,...a)))},t)}export{f as s};
