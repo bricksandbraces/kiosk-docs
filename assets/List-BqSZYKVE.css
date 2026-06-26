@@ -1,1 +1,0 @@
-@keyframes svelte-ravzwc-list-item-in{0%{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}.list-item-anim.svelte-ravzwc{animation:.2s ease-out backwards svelte-ravzwc-list-item-in;animation-delay:calc(var(--i) * 45ms)}
