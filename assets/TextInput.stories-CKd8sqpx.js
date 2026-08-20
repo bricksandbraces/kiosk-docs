@@ -1,0 +1,12 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{Nt as t,Pt as n,Q as r,Ut as i,Vt as a,_t as o,bt as s,et as c,o as l,s as u,t as d,vt as f,zt as p}from"./iframe-DtmjUeVe.js";import{a as m,i as h,n as g,r as _,t as v}from"./create-runtime-stories-pYaNL8_f.js";import{n as y,t as b}from"./TextInput-sM_HO7RE.js";function x(e,i){n(i,!1),u();var c=E(),d=f(c);C(d,{name:`Playground`,args:{label:`Workout name`,value:``,variant:`default`,placeholder:``},template:(e,t=a)=>{var n=w();b(o(n),l(t)),p(n),r(e,n)},$$slots:{template:!0},parameters:{docs:{description:{story:"Playground: every prop wired to live controls. Wrapped in a fixed width because\n    the field is `w-full` with absolutely-positioned content (no intrinsic width)."}},__svelteCsf:{rawCode:`<div class="w-[28rem] max-w-full">
+  <TextInput {...args} />
+</div>`}}}),C(s(d,2),{name:`Overview`,asChild:!0,parameters:{layout:`padded`,controls:{disable:!0},docs:{description:{story:`Overview: all common variants composed in a single story.`}},__svelteCsf:{rawCode:`<div class="flex flex-col gap-6">
+  <div class="flex flex-wrap items-start gap-3">
+    <TextInput label="Workout name" value="" />
+    <TextInput label="Workout name" value="Tabata 4×4" />
+  </div>
+  <div class="flex flex-wrap items-start gap-3">
+    <TextInput label="Workout name" value="" variant="inverse" />
+    <TextInput label="Workout name" value="Tabata 4×4" variant="inverse" />
+  </div>
+</div>`}},children:(e,t)=>{var n=T(),i=o(n),a=o(i);b(a,{label:`Workout name`,value:``}),b(s(a,2),{label:`Workout name`,value:`Tabata 4×4`}),p(i);var c=s(i,2),l=o(c);b(l,{label:`Workout name`,value:``,variant:`inverse`}),b(s(l,2),{label:`Workout name`,value:`Tabata 4×4`,variant:`inverse`}),p(c),p(n),r(e,n)},$$slots:{default:!0}}),r(e,c),t()}var S,C,w,T,E,D,O,k,A;e((()=>{i(),m(),h(),y(),d(),g(),S={title:`lib/components/TextInput`,component:b,parameters:{layout:`centered`},argTypes:{variant:{control:`inline-radio`,options:[`default`,`inverse`]}}},{Story:C}=_(S),w=c(`<div class="w-[28rem] max-w-full"><!></div>`),T=c(`<div class="flex flex-col gap-6"><div class="flex flex-wrap items-start gap-3"><!> <!></div> <div class="flex flex-wrap items-start gap-3"><!> <!></div></div>`),E=c(`<!> <!>`,1),x.__docgen={data:[],name:`TextInput.stories.svelte`},D=v(x,S),O=[`Playground`,`Overview`],k={...D.Playground,tags:[`svelte-csf-v5`]},A={...D.Overview,tags:[`svelte-csf-v5`]}}))();export{A as Overview,k as Playground,O as __namedExportsOrder,S as default};
