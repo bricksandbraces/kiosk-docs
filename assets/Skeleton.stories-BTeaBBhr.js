@@ -1,0 +1,10 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{Bt as t,Nt as n,Pt as r,Q as i,Wt as a,_t as o,bt as s,et as c,s as l,t as u,vt as d}from"./iframe-BXoOsKi2.js";import{a as f,i as p,n as m,r as h,t as g}from"./create-runtime-stories-w2axnFC8.js";import{n as _,t as v}from"./Skeleton-Dg6HEI6W.js";function y(e,a){r(a,!1),l();var c=C(),u=d(c);x(u,{name:`Playground`,args:{width:`200px`,height:`20px`},parameters:{docs:{description:{story:`Playground: every prop wired to live controls.`}},__svelteCsf:{rawCode:`<Skeleton {...args} />`}}}),x(s(u,2),{name:`Overview`,asChild:!0,parameters:{layout:`padded`,controls:{disable:!0},docs:{description:{story:`Overview: all common variants composed in a single story.`}},__svelteCsf:{rawCode:`<div class="flex flex-col gap-6">
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton />
+    <Skeleton width="400px" />
+  </div>
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton width="120px" height="120px" />
+    <Skeleton width="80px" height="80px" class="rounded-lg" />
+  </div>
+</div>`}},children:(e,n)=>{var r=S(),a=o(r),c=o(a);v(c,{}),v(s(c,2),{width:`400px`}),t(a);var l=s(a,2),u=o(l);v(u,{width:`120px`,height:`120px`}),v(s(u,2),{width:`80px`,height:`80px`,class:`rounded-lg`}),t(l),t(r),i(e,r)},$$slots:{default:!0}}),i(e,c),n()}var b,x,S,C,w,T,E,D;e((()=>{a(),f(),p(),_(),u(),m(),b={title:`lib/components/Skeleton`,component:v,parameters:{layout:`centered`}},{Story:x}=h(b),S=c(`<div class="flex flex-col gap-6"><div class="flex flex-wrap items-center gap-3"><!> <!></div> <div class="flex flex-wrap items-center gap-3"><!> <!></div></div>`),C=c(`<!> <!>`,1),y.__docgen={data:[],name:`Skeleton.stories.svelte`},w=g(y,b),T=[`Playground`,`Overview`],E={...w.Playground,tags:[`svelte-csf-v5`]},D={...w.Overview,tags:[`svelte-csf-v5`]}}))();export{D as Overview,E as Playground,T as __namedExportsOrder,b as default};
