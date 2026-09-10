@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";function t(e){let t=Math.max(0,Math.floor(e));if(t>=3600){let e=Math.floor(t/3600),n=Math.floor(t%3600/60),r=t%60;return`${e}:${n.toString().padStart(2,`0`)}:${r.toString().padStart(2,`0`)}`}return`${Math.floor(t/60)}:${(t%60).toString().padStart(2,`0`)}`}var n=e((()=>{}));export{n,t};
