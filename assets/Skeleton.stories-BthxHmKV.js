@@ -1,0 +1,10 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{Et as t,Ht as n,Jt as r,Ot as i,Qt as a,Tt as o,Vt as s,rt as c,s as l,t as u,tt as d}from"./iframe-6RGT3yKJ.js";import{a as f,i as p,n as m,o as h,r as g,s as _,t as v}from"./create-runtime-stories-h7J8rY_i.js";import{n as y,t as b}from"./Skeleton-K1FmAENC.js";function x(e,a){n(a,!1),l();var c=T(),u=t(c);C(u,{name:`Playground`,args:{width:`200px`,height:`20px`},parameters:{docs:{description:{story:`Playground: every prop wired to live controls.`}},__svelteCsf:{rawCode:`<Skeleton {...args} />`}}}),C(i(u,2),{name:`Overview`,asChild:!0,parameters:{layout:`padded`,controls:{disable:!0},docs:{description:{story:`Overview: all common variants composed in a single story.`}},__svelteCsf:{rawCode:`<div class="flex flex-col gap-6">
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton />
+    <Skeleton width="400px" />
+  </div>
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton width="120px" height="120px" />
+    <Skeleton width="80px" height="80px" class="rounded-lg" />
+  </div>
+</div>`}},children:(e,t)=>{var n=w(),a=o(n),s=o(a);b(s,{}),b(i(s,2),{width:`400px`}),r(a);var c=i(a,2),l=o(c);b(l,{width:`120px`,height:`120px`}),b(i(l,2),{width:`80px`,height:`80px`,class:`rounded-lg`}),r(c),r(n),d(e,n)},$$slots:{default:!0}}),d(e,c),s()}var S,C,w,T,E,D,O,k;e((()=>{a(),_(),h(),p(),y(),u(),m(),S={title:`lib/components/Skeleton`,component:b,parameters:{layout:`centered`,design:g(`https://www.figma.com/design/T6TXRdKEdKc1oKiIs0zZiD/Kiosk-Design-System?node-id=8-721`)}},{Story:C}=f(S),w=c(`<div class="flex flex-col gap-6"><div class="flex flex-wrap items-center gap-3"><!> <!></div> <div class="flex flex-wrap items-center gap-3"><!> <!></div></div>`),T=c(`<!> <!>`,1),x.__docgen={data:[],name:`Skeleton.stories.svelte`},E=v(x,S),D=[`Playground`,`Overview`],O={...E.Playground,tags:[`svelte-csf-v5`]},k={...E.Overview,tags:[`svelte-csf-v5`]}}))();export{k as Overview,O as Playground,D as __namedExportsOrder,S as default};
