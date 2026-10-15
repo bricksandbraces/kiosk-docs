@@ -1,0 +1,10 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{Gt as t,Ot as n,Wt as r,Zt as i,it as a,jt as o,kt as s,ot as c,s as l,t as u,tn as d}from"./iframe-BWwDxEz_.js";import{a as f,i as p,n as m,r as h,t as g}from"./create-runtime-stories-D-BviaJ8.js";import{n as _,t as v}from"./figmaDesign-BuxWJBGH.js";import{n as y,t as b}from"./Skeleton-Dh0wCfr2.js";function x(e,c){t(c,!1),l();var u=T(),d=s(u);C(d,{name:`Playground`,args:{width:`200px`,height:`20px`},parameters:{docs:{description:{story:`Playground: every prop wired to live controls.`}},__svelteCsf:{rawCode:`<Skeleton {...args} />`}}}),C(o(d,2),{name:`Overview`,asChild:!0,parameters:{layout:`padded`,controls:{disable:!0},docs:{description:{story:`Overview: all common variants composed in a single story.`}},__svelteCsf:{rawCode:`<div class="flex flex-col gap-6">
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton />
+    <Skeleton width="400px" />
+  </div>
+  <div class="flex flex-wrap items-center gap-3">
+    <Skeleton width="120px" height="120px" />
+    <Skeleton width="80px" height="80px" class="rounded-lg" />
+  </div>
+</div>`}},children:(e,t)=>{var r=w(),s=n(r),c=n(s);b(c,{}),b(o(c,2),{width:`400px`}),i(s);var l=o(s,2),u=n(l);b(u,{width:`120px`,height:`120px`}),b(o(u,2),{width:`80px`,height:`80px`,class:`rounded-lg`}),i(l),i(r),a(e,r)},$$slots:{default:!0}}),a(e,u),r()}var S,C,w,T,E,D,O,k;e((()=>{d(),f(),p(),_(),y(),u(),m(),S={title:`lib/components/Skeleton`,component:b,parameters:{layout:`centered`,design:v(`https://www.figma.com/design/T6TXRdKEdKc1oKiIs0zZiD/Kiosk-Design-System?node-id=8-721`)}},{Story:C}=h(S),w=c(`<div class="flex flex-col gap-6"><div class="flex flex-wrap items-center gap-3"><!> <!></div> <div class="flex flex-wrap items-center gap-3"><!> <!></div></div>`),T=c(`<!> <!>`,1),x.__docgen={data:[],name:`Skeleton.stories.svelte`},E=g(x,S),D=[`Playground`,`Overview`],O={...E.Playground,tags:[`svelte-csf-v5`]},k={...E.Overview,tags:[`svelte-csf-v5`]}}))();export{k as Overview,O as Playground,D as __namedExportsOrder,S as default};
