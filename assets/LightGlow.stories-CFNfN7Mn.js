@@ -1,0 +1,37 @@
+import{i as e}from"./preload-helper-xPQekRTU.js";import{At as t,Gt as n,H as r,Kt as i,Lt as a,Mt as o,Qt as s,Rt as c,Zt as l,_t as u,it as d,kt as f,nn as p,nt as m,ot as h,t as g,wt as _}from"./iframe-DphDD8Dh.js";import{i as v,n as y,r as b,t as x}from"./create-runtime-stories-Cf7yfCMR.js";import{n as S,t as C}from"./figmaDesign-BuxWJBGH.js";import{n as w,t as T}from"./LightGlow-n6gNdgou.js";import{n as E,t as D}from"./Toggle-CyheZtMd.js";function O(e,p){i(p,!0);let h=c(!0);var g=L(),v=t(g);A(v,{name:`Playground`,args:{variant:`solid`,size:48,on:!0},parameters:{docs:{description:{story:`Playground: every prop wired to live controls.`}},__svelteCsf:{rawCode:`<LightGlow {...args} />`}}}),A(o(v,2),{name:`Overview`,asChild:!0,parameters:{layout:`padded`,controls:{disable:!0},docs:{description:{story:`Overview: on, off and switching in every size, then light colors from dark to bright, off, to show the icon flipping between white and black.`}},__svelteCsf:{rawCode:`<div class="flex flex-col gap-8 typography-body-small-semibold text-text-secondary">
+  <div class="sticky top-0 z-10 -mx-12 flex items-center gap-4 bg-layer-background px-12 py-4">
+    <Toggle id="light-glow-switch" bind:checked={on} />
+    <label for="light-glow-switch" class="typography-body-regular text-text">Switch the lights on</label>
+  </div>
+  {#each variants as variant (variant)}
+    <div class="grid grid-cols-[auto_repeat(6,3rem)] place-items-center gap-x-4 gap-y-6">
+      <span class="justify-self-start typography-body-regular text-text capitalize">{variant}</span>
+      {#each sizes as size (size)}
+        <span>{size}</span>
+      {/each}
+
+      <span class="justify-self-start">On</span>
+      {#each sizes as size (size)}
+        <LightGlow {variant} {size} />
+      {/each}
+
+      <span class="justify-self-start">Off</span>
+      {#each sizes as size (size)}
+        <LightGlow {variant} {size} on={false} />
+      {/each}
+
+      <span class="justify-self-start">Switch</span>
+      {#each sizes as size (size)}
+        <LightGlow {variant} {size} {on} />
+      {/each}
+    </div>
+  {/each}
+  <div class="flex flex-col gap-4">
+    <span class="text-regular text-text">Icon contrast, off</span>
+    <div class="flex gap-4">
+      {#each colors as color (color)}
+        <LightGlow {color} size={48} on={false} />
+      {/each}
+    </div>
+  </div>
+</div>`}},children:(e,t)=>{var n=I(),i=f(n);D(f(i),{id:`light-glow-switch`,get checked(){return u(h)},set checked(e){a(h,e,!0)}}),l(2),s(i);var c=o(i,2);r(c,16,()=>M,e=>e,(e,t)=>{var n=F(),i=f(n),a=f(i,!0);s(i);var c=o(i,2);r(c,16,()=>j,e=>e,(e,t)=>{var n=P(),r=f(n,!0);s(n),_(()=>m(r,t)),d(e,n)});var l=o(c,4);r(l,16,()=>j,e=>e,(e,n)=>{T(e,{get variant(){return t},get size(){return n}})});var p=o(l,4);r(p,16,()=>j,e=>e,(e,n)=>{T(e,{get variant(){return t},get size(){return n},on:!1})}),r(o(p,4),16,()=>j,e=>e,(e,n)=>{T(e,{get variant(){return t},get size(){return n},get on(){return u(h)}})}),s(n),_(()=>m(a,t)),d(e,n)});var p=o(c,2),g=o(f(p),2);r(g,20,()=>N,e=>e,(e,t)=>{T(e,{get color(){return t},size:48,on:!1})}),s(g),s(p),s(n),d(e,n)},$$slots:{default:!0}}),d(e,g),n()}var k,A,j,M,N,P,F,I,L,R,z,B,V;e((()=>{p(),v(),S(),w(),E(),g(),y(),k={title:`lib/components/LightGlow`,component:T,parameters:{layout:`centered`,design:C(`https://www.figma.com/design/T6TXRdKEdKc1oKiIs0zZiD/Kiosk-Design-System?node-id=629-3826`)},argTypes:{color:{control:`color`},variant:{control:`inline-radio`,options:[`solid`,`rainbow`]},size:{control:`select`,options:[16,20,24,32,40,48]},on:{control:`boolean`}}},{Story:A}=b(k),j=[16,20,24,32,40,48],M=[`solid`,`rainbow`],N=[`#1a1a19`,`#3d0b20`,`#3f7be0`,`#7a5ce0`,`#f0443e`,`#b796f2`,`#ff7a2a`,`#ace7cb`,`#f6e03a`,`#fbfbf9`],P=h(`<span> </span>`),F=h(`<div class="grid grid-cols-[auto_repeat(6,3rem)] place-items-center gap-x-4 gap-y-6"><span class="justify-self-start typography-body-regular text-text capitalize"> </span> <!> <span class="justify-self-start">On</span> <!> <span class="justify-self-start">Off</span> <!> <span class="justify-self-start">Switch</span> <!></div>`),I=h(`<div class="flex flex-col gap-8 typography-body-small-semibold text-text-secondary"><div class="sticky top-0 z-10 -mx-12 flex items-center gap-4 bg-layer-background px-12 py-4"><!> <label for="light-glow-switch" class="typography-body-regular text-text">Switch the lights on</label></div> <!> <div class="flex flex-col gap-4"><span class="text-regular text-text">Icon contrast, off</span> <div class="flex gap-4"></div></div></div>`),L=h(`<!> <!>`,1),O.__docgen={data:[],name:`LightGlow.stories.svelte`},R=x(O,k),z=[`Playground`,`Overview`],B={...R.Playground,tags:[`svelte-csf-v5`]},V={...R.Overview,tags:[`svelte-csf-v5`]}}))();export{V as Overview,B as Playground,z as __namedExportsOrder,k as default};
